@@ -1,6 +1,6 @@
-delete from event_manager_db2.events;
-alter table event_manager_db2.events auto_increment = 1;
-insert into event_manager_db2.events(
+delete from event_manager_db.events;
+alter table event_manager_db.events auto_increment = 1;
+insert into event_manager_db.events(
   eventGroupId
  ,eventName
  ,eventCategory
@@ -29,7 +29,7 @@ insert into event_manager_db2.events(
  ,1
  ,now()
  ,now());
-insert into event_manager_db2.events(
+insert into event_manager_db.events(
   eventGroupId
  ,eventName
  ,eventCategory
@@ -58,7 +58,7 @@ insert into event_manager_db2.events(
  ,1
  ,now()
  ,now());
-insert into event_manager_db2.events(
+insert into event_manager_db.events(
   eventGroupId
  ,eventName
  ,eventCategory
@@ -87,7 +87,7 @@ insert into event_manager_db2.events(
  ,1
  ,now()
  ,now());
-insert into event_manager_db2.events(
+insert into event_manager_db.events(
   eventGroupId
  ,eventName
  ,eventCategory
@@ -116,7 +116,7 @@ insert into event_manager_db2.events(
  ,4
  ,now()
  ,now());
-insert into event_manager_db2.events(
+insert into event_manager_db.events(
   eventGroupId
  ,eventName
  ,eventCategory
@@ -145,7 +145,7 @@ insert into event_manager_db2.events(
  ,5
  ,now()
  ,now());
-insert into event_manager_db2.events(
+insert into event_manager_db.events(
   eventGroupId
  ,eventName
  ,eventCategory
